@@ -45,3 +45,6 @@ temp/
 
 # Build Folder
 build/
+
+# NPM packages
+node_modules/
