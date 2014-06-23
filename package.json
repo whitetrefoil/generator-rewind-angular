@@ -1,20 +1,25 @@
 {
-  "name":         "generator-rewind-angular",
-  "version":      "0.0.1",
-  "description":  "Yeoman generator for Rewind Series",
-  "author":       "WhiteTrefoil <whitetrefoil@gmail.com>",
-  "repository":   {
+  "name":            "generator-rewind-angular",
+  "version":         "0.0.1",
+  "description":     "Yeoman generator for Rewind Series",
+  "author":          "WhiteTrefoil <whitetrefoil@gmail.com>",
+  "repository":      {
     "type": "git",
     "url":  "https://github.com/whitetrefoil/generator-rewind-angular.git"
   },
-  "bugs":         {
+  "bugs":            {
     "url": "https://github.com/whitetrefoil/generator-rewind-angular/issues"
   },
-  "keywords":     [],
-  "dependencies": {
+  "keywords":        [],
+  "dependencies":    {
     "yeoman-generator": "^0.16.0"
   },
-  "preferGlobal": true,
-  "private":      true,
-  "license":      "MIT"
+  "preferGlobal":    true,
+  "private":         true,
+  "license":         "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "colors":        "^0.6.2",
+    "fs-extra":      "^0.9.1"
+  }
 }
